@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!--Domasna1, web strana za poracuvanje na pizza-->
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Order pizza online from DOMINO's</title>
+    </head>
+
+    <body>
+        <h1><strong>Order pizza!</strong></h1>
+
+        <!--Pri pritiskanje na send kopceto, kako potvrda deka uspesno se vneseni i registrirani nasite podatoci,
+        odluciv vo action da ja stavam web stranata na dominos pica vo Skopje kade sto se pojavuva menito na deserti 
+        koi gi ima vo domino-->
+
+        <form method = "post" action = "https://www.dominos.mk/menu/skopje-center#desserts">
+            <input type ="hidden" name = "recipient " value = "dominos@pizza.com">
+            <input type = "hidden" name = "subject" value = "order">
+            <input type = "hidden" name="redirect" value="redirect" value = "main.html">
+
+        <p>
+            <strong>Select the pizza size: </strong> <br>
+
+            <label>Big
+                <input name = "pizzasize" type = "radio" value="Big" checked> <br>
+            </label>
+
+            <label> Medium
+                <input name="pizzasize" type ="radio" value = "Medium"> <br>
+            </label>
+
+            <label> Small
+                <input name="pizzasize" type ="radio" value="Small"> <br>
+            </label>
+        </p>
+
+        <p>
+            <label><strong>Select the crust type: </strong><br>
+            
+            <select name = "crusttype">
+                <option selected>Deep dish</option>
+                <option> Neapolitan crust</option>
+                <option> New York style crust</option>
+                <option> Thick crust</option>
+                <option> Stuffed crust</option>
+                <option> Gluten - free crust</option>
+                <option> Soft pan </option>
+                <option> Crispy thin</option>
+            </select>
+        </label>
+        </p>
+
+        <p>
+            <strong>Select the filler: </strong><br>
+
+            <label>Sausages
+                <input name = "fillers" type = "checkbox" value="Sausages"><br></label>
+            <label>Pepper
+                <input name ="fillers" type = "checkbox" values="Pepper"><br></label>
+            <label>Mushrooms
+                <input name = "fillers" type = "checkbox" values=" Mushrooms"><br></label>
+            <label> Bacon
+                <input name = "filler" type = "checkbox" values=" Bacon"><br></label>
+            <label>Black olives
+                <input name = "filler" type = "checkbox" values=" Black olives"><br></label>
+            <label> Extra cheese
+                <input name = "filler" type = "checkbox" values=" Extra cheese"><br></label>
+            <label>Pineapple
+                <input name = "filler" type = "checkbox" values=" Pineapple"><br></label>
+            <label> Onion
+                <input name = "filler" type = "checkbox" values=" Onion"><br></label>
+        </p>
+
+       
+        <p>
+            <label><strong>Name: </strong>
+                <input name = "Name" type = "text" size = "15">
+            </label>
+        </p>
+        
+        <p>
+            <label><strong> Phone: </strong>
+                <input name = "Phone"type = "tel" size="15">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <textarea name = "Message: " rows="3" cols="40"> Message: </textarea>
+            </label>
+        </p>
+
+        <p>
+            <input type = "Submit" value = "Send">
+            <input type = "Reset" value = "Reset">
+        </p>
+        </form>        
+    </body>
+</html>
