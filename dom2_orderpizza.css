@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(background_pizza.jpg); /*pozadina so razlicni vidovi na pici fiksirana na cel ekran*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px;
+}
+h1 /*posebno css rule poradi naslovot vo body delot*/
+{
+    text-align:center; 
+    margin-top:20px;  
+    font-size:xx-large;
+    color: coral;
+    text-shadow: -4px 4px 6px black;   
+}
+
+
+form 
+{
+    text-align: center;      
+    width: 400px;            
+    margin: 0 auto;          
+    padding: 20px;
+    background: rgba(227, 129, 118, 0.8); 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(215, 187, 25, 0.5); 
+}
+input[type="submit"], input[type="reset"] 
+{
+    background: linear-gradient(to left , rgb(245, 95, 95), rgb(245, 202, 46)); 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+textarea
+{
+    border:5px inset;
+    border-color: rgb(242, 207, 94)
+    
+}
