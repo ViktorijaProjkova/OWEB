@@ -1,0 +1,65 @@
+body /* body delot vo html e prazen, pa se odnesuva samo za fiksiranje na pozadinata*/
+{
+    background-image: url(stickman_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:10px;
+}
+h1 /* delot igraj besilka so soodvetna boja, font, golemina na font, margini od gore i centriran*/
+{
+    text-align:center;
+    margin-top:20px;
+    font-size:xx-large;
+    color: cornflowerblue;
+    text-shadow:rgb(255, 0, 128);   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 /*delot pogodi go zborot soodvetno centriran, oboen, so soodvetna boja, a radi h1 nad nego odbrav marginite od gore da bidat
+auto*/
+{
+    text-align: center;
+    margin-top: auto;
+    font-size: x-large;
+    color:cornflowerblue;
+    text-shadow: rgb(255, 0, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p/*paragrafite soodvetno centrirani isto taka, so stiliziran font boja itn*/
+{
+    text-align: center;
+    margin-top: auto;
+    font-size: large;
+    color:cornflowerblue;
+    text-shadow: rgb(255, 0, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center  /*klasa center na elementot div so cel text delot i kopcinjata da bidat centralizirani na ekranot*/
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.alert /*alert poleto od bootstrap isto taka centrirano*/
+{
+    text-align: center;
+}
+button /*kopcinjata soodvetno stilizirani vo boja, centrirani i za pogolema estetiga imaat gradient od levo kon desno*/
+{
+    background: linear-gradient(to left , rgb(76, 204, 240), rgb(232, 85, 192)); 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+} 
+#letterInput  /*blank text delot za vnesuvanje da bide soodvetno centraliziran*/
+{
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid cornflowerblue;
+}
+
