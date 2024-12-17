@@ -1,0 +1,6 @@
+<div>
+  <app-comp *ngFor="let drv of vozaci; index as i"
+  [vozac]="drv" (click)="onAppView()"
+  [indeks]="i+1"></app-comp>
+  
+</div>

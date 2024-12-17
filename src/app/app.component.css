@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px auto;
+    max-width: 1200px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  app-comp {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  app-comp:hover {
+    transform: scale(1.03);
+  }
+  
