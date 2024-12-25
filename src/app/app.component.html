@@ -1,6 +1,14 @@
 <div>
-  <app-comp *ngFor="let drv of vozaci; index as i"
+  <app-comp *ngFor="let drv of vozaci; index as i; first as prv;last as posleden;odd as nepar; even as par"
   [vozac]="drv" (click)="onAppView()"
-  [indeks]="i+1"></app-comp>
-  
+  [class.is-first]="prv"
+  [class.is-even]="par"
+  [class.is-odd]="nepar"
+  [class.is-last]="posleden"
+  [indeks]="i+1"
+  role="listitem"
+  [attr.aria-label]="'Driver'+ drv?.name + 'index' + (i+1)">
+</app-comp>
 </div>
+
+<!--https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques-->

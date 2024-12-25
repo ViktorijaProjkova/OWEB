@@ -1,14 +1,30 @@
+<div *ngIf="vozac?.name !=undefined" [ngClass]="klasi2()">
+
 <div>
-    <div>
-        
+    <ng-template role="alert" aria-live="polite" #noImg>
+        Nema slika!
+    </ng-template>
+    <div role="heading" aria-level="2">
         {{indeks+". "+vozac?.name}}
     </div>
-    <img width="300" [src]="vozac?.iconUrl">
-    <div>
+    <img width="300" *ngIf="vozac?.iconUrl ; else noImg"
+    [src]="vozac?.iconUrl"
+    alt="This is an image"
+    role="img"
+    [attr.aria.label]="'Icon image for' +vozac?.iconUrl"><!-- za koristenje na aria attr mi e prefix vo angular-->
+    <div [style.text-decoration]="stilovi()">
         {{vozac?.team}}
     </div>
-    <button (click)="onDrvView()"> Klikni me</button>
+    <div [ngSwitch]="vozac?.category">
+        <div *ngSwitchCase=" 'EXPERT'">EXPERT</div>
+        <div *ngSwitchCase="'LUNATIC'">LUNATIC</div>
+        <div *ngSwitchCase="'ASD'">Dusicka</div>
+        <div *ngSwitchDefault>No comment</div>
+    </div>
+    <button aria-haspopup="true" (click) ="onDrvView()" aria-expanded="false"> View driver </button> <!--znaci deka pri klik na
+    kopceto view driver kje se sluci nesto ("popup" na slika samo na dr tab)-->
     <div>
         &nbsp;
     </div>
+</div>
 </div>

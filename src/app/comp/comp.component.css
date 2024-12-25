@@ -1,7 +1,6 @@
-div {
+/*div {
     text-align: center;
     font-family: Arial, sans-serif;
-    color: white;
   }
   
   img {
@@ -25,5 +24,10 @@ div {
   
   button:hover {
     background-color: #3a0303;
+  }*/
+  .begin{
+    background: lightcoral;
   }
-  
+  .adv{
+    background: lightcyan;
+  }
