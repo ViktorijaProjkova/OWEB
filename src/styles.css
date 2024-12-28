@@ -1,0 +1,30 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(background.jpg);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    display: flex;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    outline: none;
+    color: brown;
+  }*/
+  .is-odd{color:red;}
+  .is-even{color:blue;}
+  .is-first{color:yellow;}
+  .is-last{color:orange;}
+  
+  
+
+  
