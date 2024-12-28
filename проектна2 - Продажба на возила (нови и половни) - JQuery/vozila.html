@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Buy your dream car</title>
+    <link rel="stylesheet" type= " text/css" href="voizla.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- vklucuvanje na Jquery preku CDN -->
+    <script src="vozila.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <strong><h1>BUY YOUR DREAM CAR</h1></strong>
+        <nav>
+            <a href="#homepage"> Home page</a>
+            <a href="#new" id="new-link">New Vehicles</a>  <!-- koga kje kliknam na new vehicles me scrola do delot so novi vozila -->
+            <a href="#used" id="used-link">Second Hand Vehicles</a>  <!--taka soodvetno za site ancore elementi koi gi imam vmetnato-->
+            <a href="#contactus" id = "contact-link">Contact us</a>
+            <a href="#schedule" id="schedule-link">Schedule test ride</a>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Ova e delot so modeli na novi vozila -->
+<section id="new">
+    <strong><h2>New Vehicles</h2></strong>
+    <div class="vehicle-container">
+        <div class="vehicle-card">
+            <a href="https://www.autoexpress.co.uk/hyundai/bayon" class="vehicle-link">
+                <img src="Hyundai_bayon_2022.jpg" alt="Hyundai Bayon">
+                <img src="bayon_exterior_rear_interior_dashboard.webp" alt="Hyundai Bayon interior">
+            </a>
+            <h3>Hyundai Bayon 2022</h3>
+            <p>20000 EURO - The Hyundai Bayon is a fine small SUV, with striking looks, 
+            impressive levels of refinement and useful on-board tech. The slim lights, split grille and angular bodywork at 
+            the front give it a unique face, while the rear end features a zig-zag look with inward-pointing 
+            taillights and only a small section of painted bodywork on the boot door.</p>
+        </div>
+
+        <div class="vehicle-card">
+            <a href="https://www.whatcar.com/bmw/5-series/saloon/review/n63" class="vehicle-link">
+                <img src="2024-bmw-5-series-official-images.jpg" alt="BMW 5 2024">
+                <img src="2307-BMW-5-Series-Interior.jpg" alt="BMW 5 2024 interior">
+            </a>
+            <h3>BMW 5 2024</h3>
+            <p>61282.35 EURO - The new BMW 5 Series is a better all-rounder than its direct rivals, 
+            combining a classy and user-friendly interior with impressive refinement and handling.
+            Forward visibility is good. And while the view behind is more restricted, this isn't a 
+            huge problem due to the standard rear-view camera and all-round parking sensors (a 360-degree bird’s eye view camera is available as an option).</p>
+        </div>
+
+        <div class="vehicle-card">
+            <a href="https://www.caranddriver.com/mercedes-benz/s-class" class="vehicle-link">
+                <img src="mercedes s class.jpg" alt="Mercedes S Class 2024">
+                <img src="2024 Mercedes Benz S Class interior .jpg" alt="Mercedes S Class interior">
+            </a>
+            <h3>Mercedes S Class 2024</h3>
+            <p>110 577 EURO - Long the choice for buyers seeking solid, unaffable deportment and a distinguished presence, 
+            the Mercedes-Benz S-class has become synonymous with power and wealth. Its six-figure starting price certainly plays a part, 
+            but it wouldn't have stayed on top for so long without the class-leading ride and comfort, upscale furnishings, and smooth 
+            and muscular powertrains that define it.</p>
+        </div>
+
+        <div class="vehicle-card">
+            <a href="https://www.caranddriver.com/bmw/x5-2024" class="vehicle-link">
+                <img src="2024-bmw-x5.jpg" alt="BMW X5 2024">
+                <img src="bmw x5 interior.jpg" alt="BMW X5 interior">
+            </a>
+            <h3>BMW X5 2024</h3>
+            <p>62193.75 EURO - BMW has sharpened the X5's exterior for 2024, including a revised front grille and bumper, 
+            new headlamps and taillamps, and updated wheel designs. Interior space is generous for adults in both the front and rear seats. 
+            Once settled inside, occupants are treated to a cabin lined with high-quality materials, plenty of charging points for devices, 
+            and—depending on the options chosen—myriad luxury features. Power-adjustable front seats with memory for the driver are standard. 
+            All models come with a power-adjustable steering column, heated front seats, a panoramic sunroof, 
+            dual-zone automatic climate control, a power rear liftgate, rain-sensing windshield wipers, and customizable ambient lighting.</p>
+        </div>
+
+        <div class="vehicle-card">
+            <a href="https://www.caranddriver.com/audi/a7" class="vehicle-link">
+                <img src="2023-audi-a7.jpg" alt="Audi A7 2023">
+                <img src="audi a7 interior.jpg" alt="Audi A7 interior">
+            </a>
+            <h3>Audi A7 2023</h3>
+            <p>68164.35 EURO - The A7's interior has impeccable fit and finish and is highlighted by attractive materials and sturdy switchgear. 
+            Every cabin has ambient interior lighting, heated front seats, leather seating surfaces, a panoramic sunroof, 
+            three-zone climate control, and more. However, they're controlled solely through the touchscreens, which is annoying. 
+            The A7 also provides a satisfying driving position that is complemented by excellent outward visibility. 
+            Rear-seat passengers receive climate controls, power points for charging devices, and even heated seats, which are all optional.</p>
+        </div>
+    </div>
+</section>
+<!-- idejata so recenzija ja realizirav na toj nacin sto koga kje kliknam na slikata (ramkata so sliki i opis od vozilata)
+ me nosi do druga strana od kade imam crpeno informacii t.e vistinska stranica od kade navistina moze da se kupi avtomobilot-->
+ <!--ovoj princip mi e i za sekcijata za novi vozila i za sekcijata za polovni vozila-->
+        <!-- modeli na polovni vozila -->
+        <section id="used">
+           <strong><h2>Second Hand Vehicles</h2></strong>
+            <div class="vehicle-container">
+                <div class="vehicle-card" >
+                    <a href="https://www.rac.co.uk/drive/car-reviews/bmw/3-series/3-series-2012-2015/#google_vignette" class="vehicle-link">
+                    <img src="BMW 3 Series (5).jpg" alt="BMW 3 Series 2012">
+                    <img src="bmw 3 series interior.jpg" alt="BMW 3 Series 2012"></a>
+                    <h3>BMW 3 Series 2012</h3>
+                    <p>6671.82 EURO - The sixth generation BMW 3 Series is a car that needs little in the way of introduction. 
+                    Launched in 2012, it's since been recognised as a benchmark in the compact executive car sector and whether you 
+                    opt for the four-door saloon or the five-door GT hatches or Touring estates, there's plenty of talent spread 
+                    through the range.Part of the reason is the car's Drive Performance Control system. It's fitted across the range 
+                    and allows you to switch the car into different modes according to your mood. In standard form, it changes 
+                    throttle response, engine mapping and, if you've an auto gearbox, the change parameters for that depending on 
+                    your selection between efficiency-orientated 'ECO PRO', laid-back 'Comfort' and more assertive 'Sport' modes. </p>
+                </div>
+                <div class="vehicle-card" >
+                    <a href="https://www.burdickvw.com/research/2015/2015-volkswagen-passat-model-features-info-specs-burdick-volkswagen.htm" class="vehicle-link">
+                    <img src="volkswagen passat.webp" alt="Volkswagen Passat 2015 ">
+                    <img src="volkswagen passat interior.jpg" alt="Volkswagen Passat 2015"></a>
+                    <h3>Volkswagen Passat 2015</h3>
+                    <p>7900 EURO - The 2015 Volkswagen Passat is an outstanding mid-size sedan with incredible fuel efficiency and a spacious interior. 
+                    New for 2015 is a 2.0-liter turbocharged four-cylinder TDI Clean Diesel engine, a rearview camera on the S trim, a new 
+                    Limited Edition model, and windshield wiper rain sensors on SEL trims. Below we've put together some information and 
+                    specifications on this fun sedan. When you're done reading, give us a call or head by our dealership and take the 2015 
+                    Volkswagen Passat for a test drive!</p>
+                </div>
+                <div class="vehicle-card">
+                    <a href="https://cars.usnews.com/cars-trucks/mercedes-benz/c-class/2011/performance" class="vehicle-link">                    
+                    <img src="mercedes benz c class 2011.jpg" alt="Mercedes Benz C Class 2011">
+                    <img src="2024 Mercedes Benz S Class interior .jpg" alt="Mercedes Benz C Class 2011"></a>
+                    <h3>Mercedes Benz C Class 2011</h3>
+                    <p>6510 EURO - The 2011 Mercedes-Benz C-Class has one of the most tautly-sprung suspensions Mercedes has produced in years, 
+                    aiming directly at the BMW 3-Series. It's still bested, though, by many others in the segment. Its base V6 engine is no weakling,
+                    but doesn't boast the same low-end torque that some of its rivals have. Clean, streamlined design extends to the way you configure your 
+                    C-Class. Beyond its generous standard luxuries, Exclusive Trim deepens the indulgence. Pinnacle Trim heightens its high-tech 
+                    advancements.Electrified with mild-hybrid power, the C-Class is both energetic and more energy-conscious. It's also responsive yet refined,
+                    keeping its sport-sedan legacy on the forefront of driving fun.  </p>
+                </div>
+                <div class="vehicle-card">
+                    <a href="https://www.edmunds.com/audi/a6/2018/" class="vehicle-link">                    
+                    <img src="audi a6 2018.jpg" alt="Audi A6 2018">
+                    <img src="audi-a6-2018-interior.jpg" alt="Audi A6 2018">
+                    </a>
+                    <h3>Audi A6 2018</h3>
+                    <p>23200 EURO - The 2018 Audi A6 gets new standard equipment on the base Premium trim level including keyless entry/start
+                     and the MMI interface with navigation. Premium Plus models gets LED headlights as standard while the range-topping 
+                     Prestige grade now comes with a 360-degree camera system. Cars with the optional V-6 now have more power and can be had 
+                     with the Competition package, which adds black side mirror covers, red brake calipers, 20-inch alloy wheels, sport-tuned 
+                     suspension, Quattro sport differential, aluminum interior trim, S Sport seats, and a three-spoke flat-bottom steering 
+                     wheel with paddle shifters.Performance wise, the A6 was available with two engines: an entry level 2.0-liter 4-cylinder turbocharged 
+                    engine developing 252 hp and 
+                    the more powerful 3.0 6-cylinder supercharged powerplant with 340 hp. Both engines were mated with an 8-speed automatic transmission.</p>
+                </div>
+                <div class="vehicle-card">
+                    <a href="https://www.drivearabia.com/carprices/uae/renault/renault-megane/2018/" class="vehicle-link">                    
+                    <img src="renault megane 2018.jpg" alt="Renault Megane 2018">
+                    <img src="Renault megane interior.jpg" alt="Renault Megane 2018"></a>
+                    <h3>Renault Megane 2018</h3>
+                    <p>6537.60 EURO - A new generation Renault Megane debuted in 2017, powered by a 1.6-litre with a CVT automatic. 
+                    In 2018, they introduced a more powerful 2.0-litre version. Standard features in the hatchback include cloth 
+                    upholstery, split-folding rear seat, fog lamps, rear wiper, manual a/c, power windows and mirrors, 
+                    keyless entry, 4.2-inch display, 4-speaker CD/MP3 stereo with USB/AUX port and Bluetooth and 16-inch steel 
+                    wheels with hubcaps.Standard safety features include ABS and dual front airbags, with side and curtain airbags 
+                    available on higher models.On the plus side, the Megane's interior quality and design stand out from the other cars in the class
+                    with a high-quality feel.The driving experience also impressed, the Megane giving a great balance between comfort and responsive handling.</p>
+                </div>
+            </div>
+        </section>
+
+    <!-- Mini instagram kade se objaveni postovi od modelite na koi moze da se dodade i izbrise komm, i da se stavi lajk -->
+    <div class="instagram-section">
+        <div class="post" id="post1">
+            <img src="hyundaiinsta.jpg" alt="Instagram Post 1" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(1)">❤️ Like</button>
+                <span id="like-count-1">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-1" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(1)">Add Comment</button>
+                    <ul id="comment-list-1"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="post" id ="post2"> <!--mi treba id od pricina sto ponatamu vo js da moze sekoj post zasebno da mi funkcionira
+            so lajkovite i komentarite-->
+            <img src="bmw5insta.jpg" alt="Instagram Post 2" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(2)">❤️ Like</button>
+                <span id="like-count-2">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-2" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(2)">Add Comment</button>
+                    <ul id="comment-list-2"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post3">
+            <img src="mercedesS.jpg" alt="Instagram Post 3" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(3)">❤️ Like</button>
+                <span id="like-count-3">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-3" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(3)">Add Comment</button>
+                    <ul id="comment-list-3"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post4">
+            <img src="bmwx5insta.jpg" alt="Instagram Post 4" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(4)">❤️ Like</button>
+                <span id="like-count-4">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-4" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(4)">Add Comment</button>
+                    <ul id="comment-list-4"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post5">
+            <img src="audiA7insta.jpg" alt="Instagram Post 5" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(5)">❤️ Like</button>
+                <span id="like-count-5">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-5" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(5)">Add Comment</button>
+                    <ul id="comment-list-5"></ul>
+                </div>
+            </div>
+        </div>
+        <!--ova se postovite za povolnite-->
+        <div class="post" id="post6">
+            <img src="bmw3series.jpg" alt="Instagram Post 6" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(6)">❤️ Like</button>
+                <span id="like-count-6">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-6" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(6)">Add Comment</button>
+                    <ul id="comment-list-6"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post7">
+            <img src="meganeinsta.jpg" alt="Instagram Post 7" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(7)">❤️ Like</button>
+                <span id="like-count-7">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-7" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(7)">Add Comment</button>
+                    <ul id="comment-list-7"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post8">
+            <img src="passatinsta.jpg" alt="Instagram Post 8" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(8)">❤️ Like</button>
+                <span id="like-count-8">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-8" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(8)">Add Comment</button>
+                    <ul id="comment-list-8"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" id="post9">
+            <img src="mercedesC.jpg" alt="Instagram Post 9" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(9)">❤️ Like</button>
+                <span id="like-count-9">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-9" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(9)">Add Comment</button>
+                    <ul id="comment-list-9"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="post" post="post10">
+            <img src="audiA6insta.jpg" alt="Instagram Post 10" class="post-image">
+            <div class="post-info">
+                <button class="like-btn" onclick="toggleLike(10)">❤️ Like</button>
+                <span id="like-count-10">0 Likes</span>
+                <div class="comments">
+                    <textarea class="comment-input" id="comment-input-10" placeholder="Add a comment..."></textarea>
+                    <button class="add-comment-btn" onclick="addComment(10)">Add Comment</button>
+                    <ul id="comment-list-10"></ul>
+                </div>
+            </div>
+        </div>
+        <section id="schedule">
+        <div id="schedule-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn" id="close-btn">&times;</span>
+                <h2> Schedule your term for a test drive with your dream car!</h2>
+
+                <!-- zakazuvanje na test vozenje -->
+                <form id="schedule-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br>
+    
+                    <label for="date">Choose date:</label>
+                    <input type="date" id="date" name="date" required><br>
+    
+                    <label for="time">Choose time:</label>
+                    <input type="time" id="time" name="time" required><br>
+    
+                    <label>Choose your dream car:</label><br>
+
+                    <input type="radio" id="model1" name="carModel" value="Model 1">
+                    <label for="model1">Hyundai Bayon</label><br>
+
+                    <input type="radio" id="model2" name="carModel" value="Model 2">
+                    <label for="model2">BMW 5</label><br>
+
+                    <input type="radio" id="model3" name="carModel" value="Model 3">
+                    <label for="model3">Mercedes S Class</label><br>
+
+                    <input type="radio" id="model4" name="carModel" value="Model 4">
+                    <label for="model4">BMW X5</label><br>
+
+                    <input type="radio" id="model5" name="carModel" value="Model 5">
+                    <label for="model5">Audi A7</label><br>
+
+                    <input type="radio" id="model6" name="carModel" value="Model 6">
+                    <label for="model6">BMW 3 Series </label><br>
+
+                    <input type="radio" id="model7" name="carModel" value="Model 7">
+                    <label for="model7">Volkswagen Passat</label><br>
+
+                    <input type="radio" id="model8" name="carModel" value="Model 8">
+                    <label for="model8">Mercedes C Class</label><br>
+
+                    <input type="radio" id="model9" name="carModel" value="Model 9">
+                    <label for="model9">Audi A6</label><br>
+
+                    <input type="radio" id="model10" name="carModel" value="Model 10">
+                    <label for="model10">Renault Megane</label><br>
+    
+                    <button type="submit"> Schedule your term</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--evaluacija kolku korisnicite se zadovolni od web stranata-->
+    <section id="survey">
+        <h2>What is your impression about our site?</h2>
+        <form id="survey-form">
+            <h3>How useful is our site?</h3><br>
+            <label><input type="radio" name="impression" value="great " required>Great site with lots of helpful information🤩</label><br>
+            <label><input type="radio" name="impression" value="ok"> Ok site with good quality models 😄</label><br>
+            <label><input type="radio" name="impression" value="bad"> Bad site organization and low quality models 🥴</label><br>
+            <textarea placeholder="Insert your comments here..." id="survey-comment" required></textarea><br>
+            <button type="submit">Send</button>
+            </form>
+    </section>
+    </main>
+    </div>
+
+    <!-- Footer (stiliziran e vo css isto kako head) info za kontakt -->
+    <section id="contactus">
+    <footer>
+        <p>Contact: 02 262 6266 | Email: DeinAuto@gmail.com</p>
+    </footer>
+    </section>
+
+</body>
+</html>
